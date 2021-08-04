@@ -1,0 +1,237 @@
+{
+	"id": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+	"name": "App4 API's",
+	"description": "",
+	"order": [
+		"8ac04580-9bbf-c179-ea70-939aa534bf81",
+		"11cb565e-ae62-52d9-175a-1a4ba4dc07f7",
+		"4942f90f-0767-4dc1-dd6e-db8217924996",
+		"4c5cd7ed-d0b9-6391-1e20-f8d7b560f5ea",
+		"e9651516-5ac8-c5db-625a-44c831d49fc9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1627675353973,
+	"owner": "13918706",
+	"public": false,
+	"requests": [
+		{
+			"id": "11cb565e-ae62-52d9-175a-1a4ba4dc07f7",
+			"headers": "Authorization: 197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/api/developers/update/39",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Janete da Silva",
+					"description": "String (200)",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sex",
+					"value": "F",
+					"description": "'M' or 'F'",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "birthdate",
+					"value": "1984-02-27",
+					"description": "Date YYYY-MM-DD",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "37",
+					"description": "Integer",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hobby",
+					"value": "Tricotar",
+					"description": "String (200)",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627696659728,
+			"name": "Update developer",
+			"description": "",
+			"collectionId": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+			"responses": []
+		},
+		{
+			"id": "4942f90f-0767-4dc1-dd6e-db8217924996",
+			"headers": "Authorization: 197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/api/developer/delete/29",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627678350814,
+			"name": "Delete developer",
+			"description": "",
+			"collectionId": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+			"responses": []
+		},
+		{
+			"id": "4c5cd7ed-d0b9-6391-1e20-f8d7b560f5ea",
+			"headers": "Authorization: 197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/api/developers/get/39",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627695141828,
+			"name": "Get developer",
+			"description": "",
+			"collectionId": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+			"responses": []
+		},
+		{
+			"id": "8ac04580-9bbf-c179-ea70-939aa534bf81",
+			"headers": "Authorization: 197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/api/developers/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Cristiano Ronaldo",
+					"description": "String (200)",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "sex",
+					"value": "M",
+					"description": "'M' or 'F'",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "birthdate",
+					"value": "1990-12-31",
+					"description": "Date YYYY-MM-DD",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "33",
+					"description": "Integer",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "hobby",
+					"value": "Jogar futebol",
+					"description": "String (200)",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627678841992,
+			"name": "Create developer",
+			"description": "",
+			"collectionId": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+			"responses": []
+		},
+		{
+			"id": "e9651516-5ac8-c5db-625a-44c831d49fc9",
+			"headers": "Authorization: 197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "197E9AC7AC35495A576371359A43237507D76FF527D337C4F76F6E669D8BDA17",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/api/developers/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1627695282461,
+			"name": "List Developers",
+			"description": "",
+			"collectionId": "0d1dd21f-6716-7786-c5df-9316d3a47bcd",
+			"responses": []
+		}
+	]
+}
